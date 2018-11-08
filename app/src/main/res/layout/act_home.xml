@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/view_home"
+        layout="@layout/view_home" />
+
+    <include
+        android:id="@+id/view_chi_tiet"
+        layout="@layout/view_chi_tiet"
+        android:visibility="gone" />
+</FrameLayout>
